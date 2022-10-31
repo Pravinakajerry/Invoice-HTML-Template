@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Invoice </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  </head>
+  <body style="font-family: 'Inter', sans-serif;">
+
+        <div>
+          <div style="display: flex; flex-direction: column; gap: 40px">
+
+                <div id="name" style="font-size: 28px; font-weight: 600;">
+                    Pravin Singh
+                </div>
+
+              <!--- Date --->
+
+              <div style="display: flex; flex-direction: row; gap: 40px;">
+                <div style="display: flex; flex-direction: column; gap: 4px; width: 170px;">
+                  <span style="font-weight: 500;">Issued</span>
+                   <span id="issued-date" style="opacity: 50%;">04 September 2022</span>
+                </div>
+
+                <div style="display: flex; flex-direction:column; gap: 4px; width: 20ch;">
+                 <span style="font-weight: 500;">Due</span>
+                  <span id="due-date" style="opacity: 50%;">-- -- ----</span>
+                 </div>
+               </div>
+
+               <!--- Address --->
+
+                <div style="display: flex; flex-direction: row; gap: 40px">
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span style="font-weight: 500;">From</span>
+                   <span id="from-address" style="opacity: 50%; max-width: 17ch; min-width: 170px; ">Pravin Singh Dalvinagar Akurdi, PCM Pune 411035 India</span>
+                </div>
+
+                <div style="display: flex; flex-direction:column; gap: 4px;">
+                 <span style="font-weight: 500;">To</span>
+                  <span id="to-address" style="opacity: 50%; max-width: 20ch;">Non Zero Design L.L.P
+                      401, Narayan Niwas CHS Subhash (Cross) 
+                      Mumbai 400057
+                    India</span>
+                 </div>
+               </div>
+
+               <!--- Service Static Section Label --->
+
+               <div style="font-weight:600; display:flex; flex-direction: row; justify-content: space-between">
+                 <div>
+                   <span>
+                     Service
+                   </span>
+                 </div>
+
+                 <div>
+                  <span>
+                    Total
+                  </span>
+                 </div>
+               </div>
+
+               <!--- Divider --->
+
+               <div style="width:100%; background-color: #bfbfbf; height: 2px"></div>
+
+               <!--- Service Card --->
+
+              <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div style="font-weight: 600">Service Name</div>
+                <div style="opacity: 50%;">Rs 00,000.00</div>
+              </div>
+
+              <!---- Sub Total --->
+              <div style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div>
+                  
+                </div>
+                <div style="display: flex; flex-direction: row; gap: 24px;">
+                  <div>
+                    Sub Total
+                  </div>
+                  <div style="opacity: 50%;">Rs 00,000.00</div>
+                </div>
+              </div>
+
+              <!--- Sub Total Card --->
+              <div style="display: flex; flex-direction: row; justify-content: space-between; margin-top: 80px; padding: 16px; background-color: #f5f5f5; border-radius: 8px; border-style: dashed;">
+                <span style="font-weight: 500">
+                  Total
+                </span>
+                <span style="font-weight: 600">
+                  Rs 40,000.00
+                </span>
+              </div>
+
+              <!--- Bank Detials --->
+              <div style="display: flex; flex-direction: row; gap: 40px; justify-content: space-between; margin-top: 40px;">
+
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span>
+                    Account
+                  </span>
+                  <span style="opacity: 50%">
+                    Your Bank Name
+                  </span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span>
+                    Bank Name
+                  </span>
+                  <span style="opacity: 50%">
+                    987456321123456789
+                  </span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span>
+                    IFSC
+                  </span>
+                  <span style="opacity: 50%">
+                    MAHB010101
+                  </span>
+                </div>
+
+                <div style="display: flex; flex-direction: column; gap: 4px;">
+                  <span>
+                    Pan Card
+                  </span>
+                  <span style="opacity: 50%">
+                    ODTPS6766M
+                  </span>
+                </div>
+
+              </div>
+
+              <!--- Message --->
+
+              <div style="max-width: 420px; text-align: center; margin-left: auto; margin-right: auto;">
+                <p style="opacity: 50%;">
+                  Thanks for collabrating and putting trust in me, If you have any question, feel free to contact me at
+                </p>
+                <a style="color: black; text-decoration: none;" href="mailto:jerryatbusiness@gmail.com">jerryatbusiness@gmail.com</a>
+              </div>
+
+        </div>
+      </div>
+  </body>
+</html>
